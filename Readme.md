@@ -7,6 +7,11 @@ An exercise for a React frontend role.
 
 You can try a live demo [here](https://gamor-streaming-platform.vercel.app/).
 
+Authentication data for testing:
+
+- `user`: ariel.841207@gmail.com
+- `password`: 12345678
+
 ## Features
 
 - React
@@ -20,10 +25,3 @@ You can try a live demo [here](https://gamor-streaming-platform.vercel.app/).
 - Pullstate
 - Vitest
 - TypeScript
-
-## Settings
-
-Authentication user for testing:
-
-- `user`: ariel.841207@gmail.com
-- `password`: 12345678
