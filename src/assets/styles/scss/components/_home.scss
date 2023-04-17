@@ -1,4 +1,4 @@
 .home {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  @include responsive('padding-left', (xs: 1rem, sm: 2rem));
+  @include responsive('padding-right', (xs: 1rem, sm: 2rem));
 }
