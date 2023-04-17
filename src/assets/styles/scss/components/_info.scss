@@ -17,10 +17,10 @@
 
     @media only screen and (min-width: 1280px) {
       background-image:
-      url("images/title-back-light.svg"),
-      url("images/title-back-light.svg"),
-      url("images/title-back-light.svg"),
-      url("images/title-back-light.svg");
+      url("/images/title-back-light.svg"),
+      url("/images/title-back-light.svg"),
+      url("/images/title-back-light.svg"),
+      url("/images/title-back-light.svg");
     }
 
     span {
@@ -46,7 +46,7 @@
         bottom: -14px;
         left: 0;
         right: 0;
-        background-image: url("images/enphasis-dark.svg");
+        background-image: url("/images/enphasis-dark.svg");
         background-repeat: no-repeat;
         background-size: 100%;
       }
@@ -75,13 +75,13 @@
 
   @media only screen and (min-width: 1280px) {
     background-image:
-      url("images/title-back-dark.svg"),
-      url("images/title-back-dark.svg"),
-      url("images/title-back-dark.svg"),
-      url("images/title-back-dark.svg");
+      url("/images/title-back-dark.svg"),
+      url("/images/title-back-dark.svg"),
+      url("/images/title-back-dark.svg"),
+      url("/images/title-back-dark.svg");
   }
 }
 
 [data-theme='dark'] .hero p span::after {
-  background-image: url("images/enphasis-light.svg")
+  background-image: url("/images/enphasis-light.svg")
 }
